@@ -84,10 +84,9 @@ Out of the top 100 most common words seen in r/wallstreetbets and r/SatoshiStree
 
 For r/wallstreetbets, the unique words include:
 ![](https://raw.githubusercontent.com/choiseun/risk-tolerance/master/images/word_cloud_59_words_wsb.png?token=ASQO6ZHEMOXEPA42LY4LAXDAJGBOI)
-- 'account', 'amc', 'ape', 'apes', 'app', 'bruce', 'calls', 'cciv', 'dd', 'diamond', 'does', 'earnings', 'fellow', 'funds', 'game', 'gamestop', 'getting', 'gme', 'gonna', 'hands', 'hedge', 'holding', 'invest', 'lucid', 'march', 'melvin', 'meme', 'options', 'past', 'retarded', 'retards', 'robinhood', 'say', 'says', 'sec', 'sell', 'share', 'shares', 'shit', 'sign', 'sos', 'squeeze', 'stimulus', 'stock', 'stocks', 'stonk', 'stop', 'street', 'strong', 'tendies', 'tesla', 'video', 'wall', 'wallstreetbets', 'want', 'weekend', 'worth', 'wsb', 'yesterday'
 
 For r/SatoshiStreetBets, the unique words include:
-- '10', '100', 'ada', 'bitcoin', 'blockchain', 'bnb', 'bsc', 'btc', 'btt', 'cap', 'cardano', 'coin', 'coins', 'crash', 'cro', 'crypto', 'days', 'did', 'dip', 'doge', 'dogecoin', 'elon', 'eth', 'exchange', 'free', 'gains', 'great', 'high', 'join', 'kucoin', 'listed', 'look', 'looking', 'low', 'moonshot', 'musk', 'nano', 'network', 'news', 'nft', 'pi', 'pivx', 'potential', 'project', 'pump', 'ready', 'staking', 'start', 'stellar', 'student', 'supply', 'term', 'thoughts', 'token', 'usd', 'value', 'vet', 'xlm', 'xrp'
+![](https://raw.githubusercontent.com/choiseun/risk-tolerance/master/images/word_cloud_59_words_ssb.png?token=ASQO6ZANJV4H5VL2PWZIUZDAJGBUM)
 
 For each individual, I would recommend reviewing the sets of words above to understand risk tolerance and the investment type (i.e. stock or crypto) that may be a better fit.
 
