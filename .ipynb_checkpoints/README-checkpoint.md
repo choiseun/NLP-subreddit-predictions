@@ -83,6 +83,7 @@ The 10 most commonly seen words in r/SatoshiStreetBets are:
 Out of the top 100 most common words seen in r/wallstreetbets and r/SatoshiStreetBets, there are 59 words that are unique to each.
 
 For r/wallstreetbets, the unique words include:
+![](https://raw.githubusercontent.com/choiseun/risk-tolerance/master/images/word_cloud_59_words_wsb.png?token=ASQO6ZHEMOXEPA42LY4LAXDAJGBOI)
 - 'account', 'amc', 'ape', 'apes', 'app', 'bruce', 'calls', 'cciv', 'dd', 'diamond', 'does', 'earnings', 'fellow', 'funds', 'game', 'gamestop', 'getting', 'gme', 'gonna', 'hands', 'hedge', 'holding', 'invest', 'lucid', 'march', 'melvin', 'meme', 'options', 'past', 'retarded', 'retards', 'robinhood', 'say', 'says', 'sec', 'sell', 'share', 'shares', 'shit', 'sign', 'sos', 'squeeze', 'stimulus', 'stock', 'stocks', 'stonk', 'stop', 'street', 'strong', 'tendies', 'tesla', 'video', 'wall', 'wallstreetbets', 'want', 'weekend', 'worth', 'wsb', 'yesterday'
 
 For r/SatoshiStreetBets, the unique words include:
