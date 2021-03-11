@@ -83,9 +83,11 @@ The 10 most commonly seen words in r/SatoshiStreetBets are:
 Out of the top 100 most common words seen in r/wallstreetbets and r/SatoshiStreetBets, there are 59 words that are unique to each.
 
 For r/wallstreetbets, the unique words include:
+
 ![](https://raw.githubusercontent.com/choiseun/risk-tolerance/master/images/word_cloud_59_words_wsb.png?token=ASQO6ZHEMOXEPA42LY4LAXDAJGBOI)
 
 For r/SatoshiStreetBets, the unique words include:
+
 ![](https://raw.githubusercontent.com/choiseun/risk-tolerance/master/images/word_cloud_59_words_ssb.png?token=ASQO6ZANJV4H5VL2PWZIUZDAJGBUM)
 
 For each individual, I would recommend reviewing the sets of words above to understand risk tolerance and the investment type (i.e. stock or crypto) that may be a better fit.
