@@ -84,7 +84,7 @@ Out of the top 100 most common words seen in r/wallstreetbets and r/SatoshiStree
 
 For r/wallstreetbets, the unique words include:
 
-![](https://raw.githubusercontent.com/choiseun/risk-tolerance/master/images/word_cloud_59_words_wsb.png?token=ASQO6ZHEMOXEPA42LY4LAXDAJGBOI)
+![](https://raw.githubusercontent.com/choiseun/risk-tolerance/master/images/word_cloud_59_words_wsb.png?token=ASQO6ZGSGJ7LSRMHUPD5RB3AJGDTQ)
 
 For r/SatoshiStreetBets, the unique words include:
 
