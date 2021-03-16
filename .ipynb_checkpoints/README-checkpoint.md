@@ -92,7 +92,7 @@ For r/SatoshiStreetBets, the unique words include:
 
 For each individual, I would recommend reviewing the sets of words above to understand risk tolerance and the investment type (i.e. stock or crypto) that may be a better fit.
 
-**Note:** The logistic regression model I used for the predictions provides 690 words with the highest predictive power in determining the classification of a post. For practical purposes, I will not list these 690 words.
+**Note:** The logistic regression model I used for the predictions provides hundreds of words with the highest predictive power in determining the classification of a post. For practical purposes, I will not list all of these words.
 
 ---
 
