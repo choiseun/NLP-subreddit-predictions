@@ -6,6 +6,17 @@
 
 ---
 
+### Technology & Skills
+**Technical Skills:** Binary classification, data collection, scraping web API, data cleaning, EDA, data visualization, machine learning, bias-variance tradeoff, sentiment analysis, natural language processing (NLP), count vectorizer, TF-IDF vectorizer, pre-processing data, modeling, confusion matrix, misclassification, precision, recall, f1-score, ROC AUC, pipeline, gridsearch, word clouds
+
+**Technology:** Tableau, Python, Jupyter Notebook, GitHub, Git
+
+**Python Libraries:** NLTK, requests, time, pandas, numpy, matplotlib, seaborn, sklearn
+
+**Models:** Logistic regression, decision tree classifier, bagging classifier, multinomial naive bayes, AdaBoost classifier, random forest classifier, support vector classifier
+
+---
+
 ### Overview
 
 This project will cover the following:
