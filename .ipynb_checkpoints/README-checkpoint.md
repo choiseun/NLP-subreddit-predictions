@@ -73,7 +73,7 @@ For r/wallstreetbets, the unique words include:
 
 For r/SatoshiStreetBets, the unique words include:
 
-![](https://github.com/choiseun/risk-tolerance/blob/master/images/word_cloud_59_words_ssb.png)
+![](https://github.com/choiseun/risk-tolerance/blob/master/images/ssb_word_cloud.png)
 
 For each individual, I would recommend reviewing the sets of words above to understand risk tolerance and the investment type (i.e. stock or crypto) that may be a better fit.
 
