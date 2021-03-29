@@ -10,10 +10,10 @@
 
 This project will cover the following:
 - Problem Statement
-- Data Dictionary
 - Executive Summary
 - Conclusion
 - Data Sources
+- Data Dictionary
 
 ---
 
@@ -31,21 +31,6 @@ As a data scientist consulting Reddit to provide cautionary warnings on its r/wa
 
 ---
 
-### Data Dictionary
-
-|Feature|Type|Dataset|Description|
-|---|---|---|---|
-|subreddit|object|cleaned_posts|The name of the subreddit|
-|title|object|cleaned_posts|The contents of the post|
-|post_char_length|int|cleaned_posts|The character length of the post|
-|post_word_count|int|cleaned_posts|The word count of the post|
-|sentiment_compound|float|cleaned_posts|The compound score from sentiment analysis|
-|sentiment_negative|float|cleaned_posts|The negativity score from sentiment analysis|
-|sentiment_neutral|float|cleaned_posts|The neutrality score from sentiment analysis|
-|sentiment_positive|float|cleaned_posts|The positivity score from sentiment analysis|
-
----
-
 ### Executive Summary
 
 The goals of this project were two-fold: (1) the first was to process natural language scraped from Pushshift's web API in order to construct a classification model that could predict which of two subreddits a post came from with at least an 80% accuracy score and (2) the second was to determine an investment type (i.e. stock or crypto) that may be more suitable to the individual retail investor based on the keywords with which the individual identifies. Through the iterative process of model tuning, I was able to build a logistic regression model with the desirable accuracy and found the words with the most predictive power for classification. In addition, I performed sentiment analysis to understand the range of positive and negative emotions that are tied to the words used in each subreddit. Based on my findings, it appears that there are words unique to members of r/wallstreetbets and r/SatoshiStreetBets that may inform the individual to side with a particular investment type (i.e. stock or crypto).
@@ -59,26 +44,26 @@ In conclusion, the set of words below will provide direction in determining whet
 The 10 most commonly seen words in r/wallstreetbets are:
 - gme
 - amc
-- stock
 - moon
-- like
+- stock
 - apes
-- just
-- wsb
 - buy
-- short
+- just
+- like
+- wsb
+- hold
 
 The 10 most commonly seen words in r/SatoshiStreetBets are:
 - ada
 - crypto
 - coin
 - buy
-- bitcoin
 - moon
-- btc
+- bitcoin
 - cardano
-- moonshot
+- btc
 - just
+- doge
 
 Out of the top 100 most common words seen in r/wallstreetbets and r/SatoshiStreetBets, there are 59 words that are unique to each.
 
@@ -104,3 +89,16 @@ The data was collected using Pushshift's API. The links to the data have been pr
 - [r/SatoshiStreetBets](https://api.pushshift.io/reddit/search/submission?subreddit=SatoshiStreetBets): This is the Pushshift web API for the r/SatoshiStreetBets subreddit.
 
 ---
+
+### Data Dictionary
+
+|Feature|Type|Dataset|Description|
+|---|---|---|---|
+|subreddit|object|cleaned_posts|The name of the subreddit|
+|title|object|cleaned_posts|The contents of the post|
+|post_char_length|int|cleaned_posts|The character length of the post|
+|post_word_count|int|cleaned_posts|The word count of the post|
+|sentiment_compound|float|cleaned_posts|The compound score from sentiment analysis|
+|sentiment_negative|float|cleaned_posts|The negativity score from sentiment analysis|
+|sentiment_neutral|float|cleaned_posts|The neutrality score from sentiment analysis|
+|sentiment_positive|float|cleaned_posts|The positivity score from sentiment analysis|
