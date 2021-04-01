@@ -23,7 +23,7 @@ page = st.sidebar.selectbox(
 if page == 'About':
     st.subheader('About this project')
     st.write('''
-    This is a Streamlit app that showcases my logistic regression model. The model utilizes natural language processing on two subreddits to predict if a post came from r/wallstreetbets or r/SatoshiStreetBets. The predictions from the model can be used to explore risk tolerance in individuals by identifying words unique to each subreddit. Individuals who identify more closely with r/wallstreetbets may find stocks more suitable, whereas those who identify more closely with r/SatoshiStreetBets may find cryptocurrency more suitable.
+    This is a Streamlit app that showcases my logistic regression model. The model utilizes natural language processing on two subreddits to predict if a post came from r/wallstreetbets or r/SatoshiStreetBets. The predictions from the model can be used to explore risk tolerance in individuals by identifying words unique to each subreddit. Individuals who write text that resembles the posts from r/wallstreetbets may be more interested in stocks, whereas those who write text that resembles the posts from r/SatoshiStreetBets may be more interested in cryptocurrency.
 
     You can get in touch with me on these websites:
     - LinkedIn: https://www.linkedin.com/in/seung-woo-choi/
@@ -61,7 +61,7 @@ elif page == 'Visualize the data':
     ''')
     
 elif page == 'Make a prediction':
-    st.subheader('Which type of asset suits you better?')
+    st.subheader('Stocks or Cryptocurrency? Which type of asset are you more interested in?')
 
     st.write('''
     Enter some text to make a prediction! The model is trained on subreddit posts.
@@ -104,6 +104,6 @@ elif page == 'Make a prediction':
     
     ''')
     st.subheader('Results:')
-    st.write(f'This post resembles text you may find on **{my_label}**. You might identify more closely with **{my_asset}**.')
+    st.write(f'The input resembles text you may find on **{my_label}**. You may be more interested in **{my_asset}**.')
     
 # Referenced: https://git.generalassemb.ly/DSIR-Lancelot/streamlit_lesson/blob/master/solution-code/app.py
