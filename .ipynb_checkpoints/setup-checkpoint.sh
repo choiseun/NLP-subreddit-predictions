@@ -12,6 +12,8 @@
 # port = $PORT\n\
 # “ > ~/.streamlit/config.toml
 
+
+# Credits to Alec Edgecliffe-Johnson!
 mkdir -p ~/.streamlit
 echo "[server]
 headless = true
