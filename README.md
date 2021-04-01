@@ -7,13 +7,18 @@
 ---
 
 ### Technology & Skills
-**Technical Skills:** Binary classification, data collection, scraping web API, data cleaning, EDA, data visualization, machine learning, bias-variance tradeoff, sentiment analysis, natural language processing (NLP), count vectorizer, TF-IDF vectorizer, pre-processing data, modeling, confusion matrix, misclassification, precision, recall, f1-score, ROC AUC, pipeline, gridsearch, word clouds
+**Technical Skills:** Binary classification, data collection, scraping web API, data cleaning, EDA, data visualization, machine learning, bias-variance tradeoff, sentiment analysis, natural language processing (NLP), count vectorizer, TF-IDF vectorizer, pre-processing data, modeling, confusion matrix, misclassification, precision, recall, f1-score, ROC AUC, pipeline, gridsearch, word clouds, pickling
 
-**Technology:** Tableau, Python, Jupyter Notebook, GitHub, Git
+**Technology:** Streamlit, Tableau, Heroku, Python, Jupyter Notebook, GitHub, Git
 
-**Python Libraries:** NLTK, requests, time, pandas, numpy, matplotlib, seaborn, sklearn
+**Python Libraries:** NLTK, requests, time, pandas, numpy, matplotlib, seaborn, scikit-learn, pickle, streamlit, PIL
 
 **Models:** Logistic regression, decision tree classifier, bagging classifier, multinomial naive bayes, AdaBoost classifier, random forest classifier, support vector classifier
+
+---
+
+### Streamlit App
+Check out my Streamlit app hosted on [Heroku](https://risk-tolerance.herokuapp.com/)
 
 ---
 
