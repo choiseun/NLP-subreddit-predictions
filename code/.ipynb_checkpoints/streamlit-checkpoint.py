@@ -1,5 +1,7 @@
 import pickle
 import streamlit as st
+import numpy as np
+import pandas as pd
 
 st.set_page_config(
 page_icon='BOOK',
@@ -59,4 +61,4 @@ max_chars=1000
 predicted_subreddit = model.predict([your_text])[0]
 
 st.subheader('Results:')
-st.write(f'You identify more closely with {predicted_subreddit}')
+st.write(f'You identify more closely with {predicted_subreddit.title()}')
