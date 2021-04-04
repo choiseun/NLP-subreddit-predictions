@@ -2,23 +2,25 @@
 
 ---
 
-**Disclaimer:** I am not a financial advisor, and I am not offering or providing any financial advice to anyone. This is simply a data science project that analyzes keywords unique to the posts in the r/wallstreetbets and r/SatoshiStreetBets subreddits to predict whether an individual identifies more closely with stocks or cryptocurrency.
+**Disclaimer:** I am not a financial advisor. I am in no way providing any financial advice to anyone in any shape or form. This repository and its contents should be viewed simply as a data science project and nothing more.
 
 ---
 
 ### Technology & Skills
-**Technical Skills:** Binary classification, data collection, scraping web API, data cleaning, EDA, data visualization, machine learning, bias-variance tradeoff, sentiment analysis, natural language processing (NLP), count vectorizer, TF-IDF vectorizer, pre-processing data, modeling, confusion matrix, misclassification, precision, recall, f1-score, ROC AUC, pipeline, gridsearch, word clouds, pickling
 
 **Technology:** Streamlit, Tableau, Heroku, Python, Jupyter Notebook, GitHub, Git
 
 **Python Libraries:** NLTK, requests, time, pandas, numpy, matplotlib, seaborn, scikit-learn, pickle, streamlit, PIL
+
+**Technical Skills:** Binary classification, data collection, scraping web API, data cleaning, EDA, data visualization, machine learning, bias-variance tradeoff, sentiment analysis, natural language processing (NLP), count vectorizer, TF-IDF vectorizer, pre-processing data, modeling, confusion matrix, misclassification, precision, recall, f1-score, ROC AUC, pipeline, gridsearch, word clouds, pickling
 
 **Models:** Logistic regression, decision tree classifier, bagging classifier, multinomial naive bayes, AdaBoost classifier, random forest classifier, support vector classifier
 
 ---
 
 ### Streamlit App
-Check out my Streamlit app hosted on [Heroku](https://risk-tolerance.herokuapp.com/)
+
+Check out my Streamlit app hosted on [Heroku](https://risk-tolerance.herokuapp.com/)!
 
 ---
 
@@ -118,3 +120,5 @@ The data was collected using Pushshift's API. The links to the data have been pr
 |sentiment_negative|float|cleaned_posts|The negativity score from sentiment analysis|
 |sentiment_neutral|float|cleaned_posts|The neutrality score from sentiment analysis|
 |sentiment_positive|float|cleaned_posts|The positivity score from sentiment analysis|
+
+---
