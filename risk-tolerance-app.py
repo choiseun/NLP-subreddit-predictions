@@ -9,7 +9,7 @@ st.set_page_config(
 initial_sidebar_state='expanded'
 )
 
-st.title('Measuring Risk Tolerance: Crypto or Stocks?')
+st.title('r/wallstreetbets or r/SatoshiStreetBets? Predicting the Subreddit of a Post Using NLP')
 
 st.write('**Disclaimer:** I am not a financial advisor. I am in no way providing any financial advice to anyone in any shape or form. This app should be used solely for personal amusement.')
 
@@ -23,7 +23,7 @@ page = st.sidebar.selectbox(
 if page == 'About':
     st.subheader('About this project')
     st.write('''
-    This is a Streamlit app that showcases my logistic regression model. The model utilizes natural language processing on two subreddits to predict if a post came from r/wallstreetbets or r/SatoshiStreetBets. The predictions from the model can be used to explore risk tolerance in individuals by identifying words unique to each subreddit. Individuals who write text that resembles the posts from r/wallstreetbets may be more interested in stocks, whereas those who write text that resembles the posts from r/SatoshiStreetBets may be more interested in cryptocurrency.
+    This is a Streamlit app that showcases my logistic regression model. The model utilizes natural language processing on two subreddits to predict if a post came from r/wallstreetbets or r/SatoshiStreetBets. The predictions from the model can be used to explore what keywords are unique to each subreddit. Individuals who write text that resembles the posts from r/wallstreetbets may be more interested in stocks, whereas those who write text that resembles the posts from r/SatoshiStreetBets may be more interested in cryptocurrency.
 
     You can get in touch with me on these websites:
     - LinkedIn: https://www.linkedin.com/in/seung-woo-choi/
@@ -61,7 +61,7 @@ elif page == 'Visualize the data':
     ''')
     
 elif page == 'Make a prediction':
-    st.subheader('Stocks or Cryptocurrency? Which type of asset are you more interested in?')
+    st.subheader('Stocks or Cryptocurrencies? Which type of asset are you more interested in?')
 
     st.write('''
     Enter some text to make a prediction! The model is trained on subreddit posts.
@@ -94,7 +94,7 @@ elif page == 'Make a prediction':
     my_asset = 'None'
     if predicted_subreddit == 0:
         my_label = 'r/SatoshiStreetBets'
-        my_asset = 'cryptocurrency'
+        my_asset = 'cryptocurrencies'
     elif predicted_subreddit == 1:
         my_label = 'r/wallstreetbets'
         my_asset = 'stocks'

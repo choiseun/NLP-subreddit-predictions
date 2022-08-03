@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Measuring Risk Tolerance - Crypto or Stocks?
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) r/wallstreetbets or r/SatoshiStreetBets? Predicting the subreddit of a post using NLP
 
 ---
 
@@ -43,21 +43,21 @@ Investments and trades made in the stock and crypto markets both assume some lev
 
 The r/wallstreetbets subreddit is a community of 9.4 million members who seek to make money by investing and trading in the stock market. The r/SatoshiStreetBets subreddit is the cryptocurrency equivalent of r/wallstreetbets with a smaller community of 347K members. While r/wallstreetbets mostly focuses on the stock market and r/SatoshiStreetBets mainly engages with the cryptocurrency market, conversations in both subreddits do occasionally overlap with each other.
 
-For this project, my goal is two-fold: (1) I aim to build a classification model that can predict if a post came from r/wallstreetbets or r/SatoshiStreetBets with a minimum accuracy of 50% and an ideal accuracy of 80% or higher and (2) I plan to identify words unique to each subreddit so that I can utilize these words to determine if an individual retail investor might have a risk profile more tolerant to stocks or cryptocurrency.
+For this project, my goal is two-fold: (1) I aim to build a classification model that can predict if a post came from r/wallstreetbets or r/SatoshiStreetBets with a minimum accuracy of 50% and an ideal accuracy of 80% or higher and (2) I plan to identify words unique to each subreddit.
 
-As a data scientist consulting Reddit to provide cautionary warnings on its r/wallstreetbets and r/SatoshiStreetBets subreddits, I hope to determine an investment type (i.e. stock or crypto) that may be more suitable to the individual retail investor based on the keywords with which they identify.
+As a data scientist consulting Reddit to provide cautionary warnings on its r/wallstreetbets and r/SatoshiStreetBets subreddits, I hope to determine the keywords unique to each subreddit.
 
 ---
 
 ### Executive Summary
 
-The goals of this project were two-fold: (1) the first was to process natural language scraped from Pushshift's web API in order to construct a classification model that could predict which of two subreddits a post came from with at least an 80% accuracy score and (2) the second was to determine an investment type (i.e. stock or crypto) that may be more suitable to the individual retail investor based on the keywords with which the individual identifies. Through the iterative process of model tuning, I was able to build a logistic regression model with the desirable accuracy and found the words with the most predictive power for classification. In addition, I performed sentiment analysis to understand the range of positive and negative emotions that are tied to the words used in each subreddit. Based on my findings, it appears that there are words unique to members of r/wallstreetbets and r/SatoshiStreetBets that may inform the individual to side with a particular investment type (i.e. stock or crypto).
+The goals of this project were two-fold: (1) the first was to process natural language scraped from Pushshift's web API in order to construct a classification model that could predict which of two subreddits a post came from with at least an 80% accuracy score and (2) the second was to determine the keywords that differentiate each subreddit. Through the iterative process of model tuning, I was able to build a logistic regression model with the desirable accuracy and found the words with the most predictive power for classification. In addition, I performed sentiment analysis to understand the range of positive and negative emotions that are tied to the words used in each subreddit. Based on my findings, it appears that there are words unique to r/wallstreetbets and r/SatoshiStreetBets that members prefer to use.
 
 ---
 
 ### Conclusion
 
-In conclusion, the set of words below will provide direction in determining whether r/wallstreetbets or r/SatoshiStreetBets is more suitable for the individual retail investor.
+In conclusion, the set of words below will provide direction in determining whether a post came from r/wallstreetbets or r/SatoshiStreetBets.
 
 The 10 most commonly seen words in r/wallstreetbets are:
 - gme
@@ -92,8 +92,6 @@ For r/wallstreetbets, the unique words include:
 For r/SatoshiStreetBets, the unique words include:
 
 ![](https://github.com/choiseun/risk-tolerance/blob/master/images/ssb_word_cloud.png)
-
-For each individual, I would recommend reviewing the sets of words above to understand risk tolerance and the investment type (i.e. stock or crypto) that may be a better fit.
 
 **Note:** The logistic regression model I used for the predictions provides hundreds of words with the highest predictive power in determining the classification of a post. For practical purposes, I will not list all of these words.
 
