@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run risk-tolerance-app.py
+web: sh setup.sh && streamlit run subreddit-predictions-app.py
