@@ -6,7 +6,13 @@
 
 ### Technology & Skills
 
-**Technology:** Streamlit, Tableau, Heroku, Python, Jupyter Notebook, GitHub, Git
+**Technology:** Streamlit, Heroku
+
+![Python](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 **Python Libraries:** NLTK, requests, time, pandas, numpy, matplotlib, seaborn, scikit-learn, pickle, streamlit, PIL
 
