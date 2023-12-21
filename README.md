@@ -1,6 +1,4 @@
-## ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) r/wallstreetbets or r/SatoshiStreetBets? Predicting the subreddit of a post using NLP
-
----
+## Predicting the Subreddit of a Post using NLP
 
 **Disclaimer:** I am not a financial advisor. I am in no way providing any financial advice to anyone in any shape or form. This repository and its contents should be viewed simply as a data science project and nothing more.
 
