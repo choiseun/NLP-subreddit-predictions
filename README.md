@@ -1,4 +1,4 @@
-## Predicting the Subreddit of a Post using NLP
+## Predicting the Subreddit of a Post Using NLP
 
 **Disclaimer:** I am not a financial advisor. I am in no way providing any financial advice to anyone in any shape or form. This repository and its contents should be viewed simply as a data science project and nothing more.
 
